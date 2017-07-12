@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Free Code Camp Beta – Survey Form</title>
+
+    <!-- reset and master compiled css -->
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- jquery required for bootstrap 4 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <!-- tests for freeCodeCamp -->
+    <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+      <div class="form--wrapper row col-sm-12 col-md-8 col-lg-6 offset-md-2 offset-lg-3">
+
+        <h1 id="title">Money Management Survey</h1>
+
+        <div class="row col-sm-12">
+          <p id="description">Thank you for taking this survey about how you manage and think about money. This should take less than 10 minutes to complete.</p>
+        </div>
+
+        <form id="survey-form" class="width-100" action="index.html" method="post">
+
+          <div class="form-group">
+            <label for="name" class="col-form-label">Name</label>
+            <input id="name" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="col-form-label">Email</label>
+            <input id="email" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label for="" class="col-form-label">Do you currently plan and use a budget?</label>
+            <div class="form-check">
+              <label for="" class="form-check-label">
+                <input class="form-check-input" type="radio">
+                Yes
+              </label>
+            </div>
+            <div class="form-check">
+              <label for="" class="form-check-label">
+                <input class="form-check-input" type="radio">
+                No
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="">How much time per month do you spend maintaining your budget?</label>
+            <div class="form-check">
+              <label for="" class="form-check-label">
+                <input class="form-check-input" type="radio">
+                0-1 hours
+              </label>
+            </div>
+            <div class="form-check">
+              <label for="" class="form-check-label">
+                <input class="form-check-input" type="radio">
+                1-2 hours
+              </label>
+            </div>
+            <div class="form-check">
+              <label for="" class="form-check-label">
+                <input class="form-check-input" type="radio">
+                2-4 hours
+              </label>
+            </div>
+            <div class="form-check">
+              <label for="" class="form-check-label">
+                <input class="form-check-input" type="radio">
+                4+ hours
+              </label>
+            </div>
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
